@@ -33,12 +33,11 @@
 		<!-- <mapping resource="mappings/customer.hbm.xml" /> <mapping resource="mappings/book.hbm.xml" 
 			/> <mapping resource="mappings/person.hbm.xml" /> -->
 
-		<!-- <mapping resource="lti/pojo/tablepersubclass/discriminator/BillingDetails.hbm.xml" 
-			/> -->
+		<<mapping resource="lti/pojo/tableperhierarchy/BillingDetails.hbm.xml" />
 
 		<!-- <mapping resource="lti/pojo/one2one/user.hbm.xml" /> -->
 		
-		<mapping resource="lti/pojo/one2many/employee.hbm.xml" />
+		<!-- <mapping resource="lti/pojo/one2many/employee.hbm.xml" /> -->
 
 	</session-factory>
 

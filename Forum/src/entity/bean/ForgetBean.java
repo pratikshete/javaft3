@@ -1,16 +1,15 @@
-package lti.hola.bean;
+package entity.bean;
 
 public class ForgetBean {
-
-	private String movie;
+	private String userId;
 	private String emailId;
 
-	public String getMovie() {
-		return movie;
+	public String getUserId() {
+		return userId;
 	}
 
-	public void setMovie(String movie) {
-		this.movie = movie;
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
 	public String getEmailId() {
